@@ -20,7 +20,10 @@
 	if( defined('ONEPRESS_COMPILER_000_LOADED') ) {
 		return;
 	}
+
 	define('ONEPRESS_COMPILER_000_LOADED', true);
+
+	define('ONEPRESS_COMPILER_000_VERSION', '4.0.3');
 
 	// Absolute path and URL to the files and resources of the module.
 	define('ONEPRESS_COMPILER_000_DIR', dirname(__FILE__));
